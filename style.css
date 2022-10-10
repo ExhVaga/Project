@@ -92,9 +92,9 @@
     border-radius: 5px;
 }
 
-.blockOfAndreyContent{
-    /* margin: 0px 20px; */
-}
+/* .blockOfAndreyContent{
+    margin: 0px 20px;
+} */
 
 .authorsName{
     font-family: 'Roboto', sans-serif;
@@ -105,14 +105,125 @@
     /* padding: 0px 20px 30px 0px;     */
 }
 
-.aboutCourse{
 
+.aboutCourseHeader{
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;
+    margin: 0px 0px 40px 121px;
 }
 
-.aboutCourseInfo{
+/* .aboutCourse{
 
+} */
+
+.aboutCourseInfo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    width: 662px;
+    margin: 0px 190px 0px 121px;
+    display: inline-block;
 }
 
 .aboutCourseImg{
-    
+    display: inline-block;
+    width: 315px;
+}
+
+.aboutCourseImgEllipse{
+    position: relative;
+    bottom: 30px;
+    right: 20px;
+    z-index: -1;
+}
+
+.timeDescription{
+    margin: 90px 0px 0px 121px;
+}
+
+.timeDescriptionImg{
+    width: 232px;
+    display: inline-block;
+}
+
+.timeDescriptionImgEllipse{
+    position: relative;
+    z-index: -1;
+    bottom: 22px;
+    left: 34px;
+}
+
+/* Спросить насчет вертикального центрирования */
+/* Спросить насчет вертикального центрирования */
+/* Спросить насчет вертикального центрирования */
+/* Спросить насчет вертикального центрирования */
+/* Спросить насчет вертикального центрирования */
+/* Спросить насчет вертикального центрирования */
+/* Спросить насчет вертикального центрирования */
+
+.timeDescriptionList{
+    display: inline-block;
+    position: relative;
+    bottom: 90px;
+}
+
+/* Спросить насчет вертикального центрирования */
+/* Спросить насчет вертикального центрирования */
+/* Спросить насчет вертикального центрирования */
+/* Спросить насчет вертикального центрирования */
+/* Спросить насчет вертикального центрирования */
+/* Спросить насчет вертикального центрирования */
+/* Спросить насчет вертикального центрирования */
+
+.timeDescriptionList > li{
+    display: inline-block;
+    width: 150px;
+}
+
+.timeDescriptionList >li:first-child{
+    margin-left: 132px;
+}
+
+.timeDescriptionList > li{
+    margin-left: 95px;
+}
+
+.timeDescriptionList > li >h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.timeDescriptionList > li > p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;    
+}
+
+.lessonsFormHeader{
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;
+    margin: 140px 0px 90px 121px;
+}
+
+/* .lessonsForm{
+
+} */
+
+.lessonsForm > li{
+    display: inline-block;
+    width: 250px;
+    vertical-align: top;
+    margin: 0px 0px 0px 121px;
+}
+
+.lessonsForm > li > h2{
+    color: #1E4681;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+
+.lessonsForm > li > p{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
