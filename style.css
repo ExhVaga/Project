@@ -13,7 +13,7 @@
 }
 
 .logoBlock{
-    margin: 21px 0px 97px 121px;
+    margin: 21px 0px 90px 121px;
     width: 112px;
 }
 
@@ -82,8 +82,8 @@
 }
 
 .blockOfAndrey{
-    width: 420px;
-    margin: 70px 0px 170px 410px;
+    width: 430px;
+    margin: 50px 0px 170px 410px;
     background-color: #1E4681;
     color: white;
     font-family: 'Roboto Slab', serif;
@@ -202,7 +202,7 @@
 .lessonsFormHeader{
     font-family: 'Roboto Slab', serif;
     font-size: 55px;
-    margin: 140px 0px 90px 121px;
+    margin: 140px 0px 120px 121px;
 }
 
 /* .lessonsForm{
@@ -213,7 +213,11 @@
     display: inline-block;
     width: 250px;
     vertical-align: top;
-    margin: 0px 0px 0px 121px;
+    margin: 0px 0px 0px 100px;
+}
+
+.lessonsForm > li:first-child{
+    margin-left: 121px;
 }
 
 .lessonsForm > li > h2{
@@ -231,7 +235,7 @@
 .courseAbout{
     font-family: 'Roboto Slab', serif;
     font-size: 55px;
-    margin: 170px 0px 20px 121px;
+    margin: 180px 0px 50px 121px;
 }
 
 .courseAboutList{
@@ -253,7 +257,7 @@
 }
 
 .severalBlockContainer{
-    width: 1350px;
+    width: 1320px;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
@@ -296,7 +300,7 @@
 .courseStudentsAmount > h1{
     font-family: 'Roboto Slab', serif;
     font-size: 55px;
-    margin: 140px 0px 90px 121px;
+    margin: 140px 0px 70px 121px;
     padding-top: 90px;
 }
 
@@ -341,29 +345,91 @@
 }
 
 .coursePriceAndAbout > h1{
-
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;
+    margin: 0px 0px 60px 121px;
+    padding-top: 121px;
 }
 
 .coursePriceAndAbout > span{
-
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    line-height: 25px;
+    margin: 0px 0px 0px 121px;
 }
 
 .coursePriceAndAbout > p{
-
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+    margin: 0px 0px 0px 121px
 }
 
 .coursePriceAndAbout > div{
-
+    margin: 60px 0px 0px 121px
 }
 
 .coursePriceAndAbout > div > div{
-
+    display: inline-block;
+    width: 300px;
+    margin-right: 70px;
+    padding-bottom: 190px;
 }
 
 .coursePriceAndAbout > div > div > h3{
-    
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 10px;
 }
 
 .coursePriceAndAbout > div > div > p{
-    
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.footerBlock{
+    background-color: black;
+}
+
+.footerBlock > p{
+    color: white;
+    margin: 150px 0px 0px 121px;
+    padding-bottom: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.footerBlockFirstColumn{
+    display: inline-block;
+}
+
+.footerBlockFirstColumn > img:nth-child(2){
+    margin-left: 121px;
+}
+
+.footerBlockFirstColumn > img{
+    margin-right: 20px;
+}
+
+.footerBlockSecondColumn{
+    display: inline-block;
+    float: right;
+    margin: 60px 180px 0px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.footerBlockSecondColumn > p{
+    color: white;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.footerBlockSecondColumn > p > img{
+    margin-right: 20px;
+}
+
+.footerLogo{
+    display: block;
+    margin: 50px 0px 30px 121px;    
 }
