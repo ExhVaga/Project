@@ -433,3 +433,91 @@
     display: block;
     margin: 50px 0px 30px 121px;    
 }
+
+/* ////////////////////////////////////////////////
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+//////////////////////////////////////////////// */
+
+
+
+@media ( max-width: 834px ){
+
+.logoBlock{
+    margin: 22px 0px 55px 70px;
+    width: 65px;
+}   
+
+.iconList > li{
+    margin-right: 15px;         
+}
+
+.iconList > li:first-child{
+    margin-left: 70px;
+}
+
+.iconList > li > img{
+    width: 12px;
+}
+
+.iconList > li > span{
+    font-size: 12px;
+}
+
+.headerBlockFirst{
+    margin: 0px 0px 0px 70px;
+}
+
+.headerBlockFirst > h1{
+    font-size: 46px;
+    width: 360px;
+    line-height: 46px;
+}
+
+.headerBlockFirst > p{
+    font-size: 12px;
+    line-height: 18px;
+    width: 264px;
+}
+
+.headerBlockSecond{
+    margin-left: 80px;
+}
+
+.operator{
+    width: 176px;
+}
+
+.ellipse{
+    width: 160px;
+    bottom: 17px;
+    left: 25px;
+}
+
+.blockOfAndrey{
+    width: 235px;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 10px 25px;
+    margin: 40px 0px 0px 237px;
+}
+
+.authorsName{
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 0px;
+}
+
+.aboutCourseHeader{
+    font-size: 32px;
+    line-height: 32px;
+    margin: 100px 0px 10px 70px;
+}
+
+}
