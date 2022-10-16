@@ -707,75 +707,129 @@
     bottom: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.coursePriceAndAbout{
-
-}
-
 .coursePriceAndAbout > h1{
-    font-size: 55px;
-    margin: 0px 0px 60px 121px;
-    padding-top: 121px;
+    font-size: 32px;
+    line-height: 32px;
+    margin: 0px 0px 30px 70px;
+    padding-top: 100px;
 }
 
 .coursePriceAndAbout > span{
-    font-size: 25px;
-    line-height: 25px;
-    margin: 0px 0px 0px 121px;
+    font-size: 14px;
+    line-height: 14px;
+    margin: 0px 0px 0px 70px;
 }
 
 .coursePriceAndAbout > p{
-    font-size: 80px;
-    margin: 0px 0px 0px 121px
+    font-size: 46px;
+    line-height: 46px;
+    margin: 0px 0px 0px 70px
 }
 
 .coursePriceAndAbout > div{
-    margin: 60px 0px 0px 121px
+    margin: 60px 0px 0px 70px
 }
 
 .coursePriceAndAbout > div > div{
-    width: 300px;
-    margin-right: 70px;
-    padding-bottom: 190px;
+    width: 170px;
+    margin-right: 40px;
+    padding-bottom: 110px;
 }
 
 .coursePriceAndAbout > div > div > h3{
-    font-size: 25px;
-    font-weight: 400;
-    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 5px;
 }
 
 .coursePriceAndAbout > div > div > p{
-    font-size: 18px;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footerBlock{
+}
+
+.footerBlock > p{
+    margin: 65px 0px 0px 70px;
+    padding-bottom: 15px;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+.footerBlockFirstColumn{
+ 
+}
+
+.footerBlockFirstColumn > img:nth-child(2){
+    margin-left: 70px;
+}
+
+.footerBlockFirstColumn > img{
+    margin-right: 10px;
+}
+
+.footerBlockFirstColumn > img:first-child{
+    width: 67px;
+}
+
+.footerBlockFirstColumn > img{
+    width: 20px;
+}
+
+.footerBlockSecondColumn{
+    /* margin: 0px 0px 0px 380px; */
+    position: relative;
+    left: 359px;
+    top: -40px;
+    font-size: 25px;
+    float: none;
+}
+
+.footerBlockSecondColumn > p{
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 10px;
+}
+
+.footerBlockSecondColumn > p > img{
+    margin-right: 20px;
+    width: 15px;
+}
+
+.footerLogo{
+    margin: 30px 0px 20px 70px;    
 }
 
 }
