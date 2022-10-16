@@ -451,6 +451,10 @@
 
 @media ( max-width: 834px ){
 
+.allContent{
+    width: 834px;
+}
+
 .logoBlock{
     margin: 22px 0px 55px 70px;
     width: 65px;
@@ -747,40 +751,6 @@
     line-height: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.footerBlock{
-}
-
 .footerBlock > p{
     margin: 65px 0px 0px 70px;
     padding-bottom: 15px;
@@ -833,3 +803,100 @@
 }
 
 }
+
+/* ////////////////////////////////////////////////
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+//////////////////////////////////////////////// */
+
+
+
+@media ( max-width: 375px ){
+
+.allContent{
+    width: 375px;
+    background-color: rgb(182, 182, 182);
+}
+
+.logoBlock{
+    /* margin: 36px 0px 45px 35px; */
+    margin: 0px;
+    width: 375px;
+} 
+
+.iconList > li{
+    margin-right: 11px;         
+}
+
+.iconList > li:first-child{
+    margin-left: 35px;
+}
+
+.iconList > li > img{
+    width: 10px;
+}
+
+.iconList > li > span{
+    font-size: 10px;
+    line-height: 11px;
+}
+
+.headerBlockFirst{
+    margin: 0px 0px 0px 35px;
+}
+
+.headerBlockFirst > h1{
+    font-size: 37px;
+    line-height: 37px;
+    width: 292px;
+}
+
+.headerBlockFirst > p{
+    font-size: 10px;
+    line-height: 15px;
+    width: 212px;
+}
+
+.headerBlockSecond{
+    width: 150px;
+    margin-left: 200px;
+}
+
+.operator{
+    width: 141px;
+}
+
+.ellipse{
+    width: 127px;
+    bottom: 13px;
+    left: 13px;
+}
+
+.blockOfAndrey{
+    width: 200px;
+    padding: 9px 13px;
+    margin: 40px 0px 0px 50px;
+}
+
+.blockOfAndreyContent{
+    width: 190px;
+    font-size: 11px;
+    line-height: 14px;
+    display: inline-block;
+}
+
+.authorsName{
+    font-size: 12px;
+    line-height: 15px;
+    margin-left: 85px;
+    display: inline-block;
+}
+
+}
+
