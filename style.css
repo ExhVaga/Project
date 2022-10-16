@@ -270,7 +270,9 @@
 }
 
 .severalBlockContainer > div:last-child > h2{
-    padding-bottom: 0px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    width: 379px;
 }
 
 .severalBlockContainer > div > h2{
@@ -331,7 +333,7 @@
 }
 
 .ekaterinaImg{
-    margin: 0px 0px 0px 0px;
+    margin: 0px;
 }
 
 .facebookIcon{
@@ -518,6 +520,262 @@
     font-size: 32px;
     line-height: 32px;
     margin: 100px 0px 10px 70px;
+}
+
+.aboutCourseInfo{
+    font-size: 14px;
+    line-height: 21px;
+    width: 383px;
+    margin: 10px 110px 55px 70px;
+}
+
+.aboutCourseImg{
+    width: 212px;
+
+}
+
+.aboutCourseImgOperator{
+    width: 181px;
+}
+
+.aboutCourseImgEllipse{
+    width: 211px;
+    bottom: 22px;
+}
+
+.timeDescription{
+    margin: 0px 0px 100px 70px;
+}
+
+.timeDescriptionImg{
+    width: 134px;
+}
+
+.timeDescriptionImgOperator{
+    width: 134px;
+}
+
+.timeDescriptionImgEllipse{
+    width: 110px;
+    left: 20px;
+    bottom: 14px;
+}
+
+.timeDescriptionList{
+    bottom: 60px;
+}
+
+.timeDescriptionList > li{
+    width: 100px;
+}
+
+.timeDescriptionList > li >h3{
+    font-size: 15px;
+    line-height: 19pxs;
+}
+
+.timeDescriptionList > li > p{
+    font-size: 11px;
+    line-height: 14px;    
+}
+
+.timeDescriptionList >li:first-child{
+    margin-left: 70px;
+}
+
+.timeDescriptionList > li{
+    margin-left: 55px;
+}
+
+.lessonsFormHeader{
+    font-size: 32px;
+    line-height: 32px;
+    margin: 0px 0px 60px 70px;
+}
+
+.lessonsForm > li{
+    width: 170px;
+    margin-left: 50px;
+}
+
+.lessonsForm > li:first-child{
+    margin-left: 70px;
+}
+
+.lessonsForm > li > h2{
+    font-size: 15px;
+    line-height: 19px;
+    margin-bottom: 5px;
+}
+
+.lessonsForm > li > p{
+    font-size: 11px;
+    line-height: 14px;
+}
+
+.courseAbout{
+    font-size: 32px;
+    line-height: 32px;
+    margin: 145px 0px 30px 70px;
+}
+
+.courseAboutList{
+    margin-left: 80px;
+    width: 383px;
+
+}
+
+.courseAboutList > li{
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.courseProgram{
+    font-size: 32px;
+    line-height: 32px;
+    margin: 140px 0px 55px 70px;    
+}
+
+.severalBlockContainer{
+    width: 734px;
+    margin: 0px 50px;
+}
+
+.severalBlockContainer > div > img{
+    width: 231px;
+}
+
+.severalBlockContainer > div{
+    width: 231px;
+    margin: 20px 0px 0px 13px;
+    border-radius: 17px;
+}
+
+.severalBlockContainer > div:last-child > h2{
+    width: 200px;
+}
+
+.severalBlockContainer > div > h2{
+    font-size: 17px;
+    line-height: 22px;
+    padding: 10px 20px 18px 20px;
+}
+
+.severalBlockContainer > div > p{
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.courseStudentsAmount{
+    padding-bottom: 60px;
+}
+
+.courseStudentsAmount > h1{
+    font-size: 32px;
+    line-height: 32px;
+    margin: 52px 0px 20px 70px;
+    padding-top: 50px;
+}
+
+.courseStudentsAmount > div{
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    width: 405px;
+    margin: 40px 0px 0px 70px;
+    padding: 23px 27px 15px 27px;
+    border-radius: 17px;
+}
+
+.courseStudentsAmount > div > p{
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.courseStudentsAmount > div > h2{
+    font-size: 17px;
+    line-height: 17px;
+    bottom: 60px;
+    left: 5px;
+}
+
+.ekaterinaImg{
+    width: 110px;
+}
+
+.facebookIcon{
+    width: 18px;
+    right: 180px;
+    bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.coursePriceAndAbout{
+
+}
+
+.coursePriceAndAbout > h1{
+    font-size: 55px;
+    margin: 0px 0px 60px 121px;
+    padding-top: 121px;
+}
+
+.coursePriceAndAbout > span{
+    font-size: 25px;
+    line-height: 25px;
+    margin: 0px 0px 0px 121px;
+}
+
+.coursePriceAndAbout > p{
+    font-size: 80px;
+    margin: 0px 0px 0px 121px
+}
+
+.coursePriceAndAbout > div{
+    margin: 60px 0px 0px 121px
+}
+
+.coursePriceAndAbout > div > div{
+    width: 300px;
+    margin-right: 70px;
+    padding-bottom: 190px;
+}
+
+.coursePriceAndAbout > div > div > h3{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.coursePriceAndAbout > div > div > p{
+    font-size: 18px;
 }
 
 }
