@@ -758,9 +758,9 @@
     line-height: 10px;
 }
 
-.footerBlockFirstColumn{
+/* .footerBlockFirstColumn{
  
-}
+} */
 
 .footerBlockFirstColumn > img:nth-child(2){
     margin-left: 70px;
@@ -821,13 +821,12 @@
 
 .allContent{
     width: 375px;
-    background-color: rgb(182, 182, 182);
+    /* background-color: rgb(182, 182, 182); */
 }
 
 .logoBlock{
-    /* margin: 36px 0px 45px 35px; */
-    margin: 0px;
-    width: 375px;
+    margin: 36px 0px 45px 35px;
+    width: 52px;
 } 
 
 .iconList > li{
@@ -896,6 +895,283 @@
     line-height: 15px;
     margin-left: 85px;
     display: inline-block;
+}
+
+.aboutCourseHeader{
+    font-size: 26px;
+    line-height: 26px;
+    margin: 75px 0px 10px 35px;
+}
+
+.aboutCourseInfo{
+    font-size: 12px;
+    line-height: 18px;
+    width: 308px;
+    margin: 0px 0px 5px 35px;
+}
+
+.aboutCourseImg{
+    width: 145px;
+    margin: auto;
+    display: block;
+}
+
+.aboutCourseImgOperator{
+    width: 145px;
+}
+
+.aboutCourseImgEllipse{
+    width: 170px;
+    right: 12px;
+    bottom: 17px;
+}
+
+.timeDescription{
+    margin: 50px 0px 100px 35px;
+}
+
+.timeDescriptionImg{
+    display: none;
+}
+
+.timeDescriptionList{
+    bottom: 0px;
+}
+
+.timeDescriptionList > li{
+    width: 87px;
+    margin-top: 30px;
+}
+
+.timeDescriptionList > li >h3{
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 5px;
+}
+
+.timeDescriptionList > li > p{
+    font-size: 10px;
+    line-height: 13px;    
+}
+
+.timeDescriptionList >li:first-child{
+    margin-left: 35px;
+}
+
+.timeDescriptionList > li{
+    margin-left: 35px;
+}
+
+.lessonsFormHeader{
+    font-size: 26px;
+    line-height: 26px;
+    margin: 0px 0px 10px 35px;
+}
+
+.lessonsForm > li{
+    width: 180px;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+.lessonsForm > li:first-child{
+    margin-left: 35px;
+}
+
+.lessonsForm > li > h2{
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 5px;
+}
+
+.lessonsForm > li > p{
+    font-size: 10px;
+    line-height: 13px;
+}
+
+.courseAbout{
+    font-size: 26px;
+    line-height: 26px;
+    margin: 145px 0px 30px 35px;
+}
+
+.courseAboutList{
+    margin-left: 45px;
+    width: 300px;
+
+}
+
+.courseAboutList > li{
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.courseProgram{
+    font-size: 26px;
+    line-height: 26px;
+    margin: 140px 0px 55px 35px;    
+}
+
+.severalBlockContainer{
+    width: 186px;
+    margin: auto;
+}
+
+.severalBlockContainer > div > img{
+    width: 186px;
+}
+
+.severalBlockContainer > div{
+    width: 186px;
+    margin: 20px 0px 0px 0px;
+    border-radius: 15px;
+}
+
+.severalBlockContainer > div:last-child > h2{
+    width: 186px;
+}
+
+.severalBlockContainer > div >p:nth-child(4){
+    margin-bottom: 10px;
+}
+
+.severalBlockContainer > div > h2{
+    font-size: 14px;
+    line-height: 18px;
+    padding: 10px 10px 18px 10px;
+}
+
+.severalBlockContainer > div > p{
+    font-size: 12px;
+    line-height: 15px;
+    padding: 0px 10px;
+}
+
+.courseStudentsAmount{
+    padding-bottom: 60px;
+}
+
+.courseStudentsAmount > h1{
+    width: 257px;
+    font-size: 26px;
+    line-height: 26px;
+    margin: 52px 0px 20px 35px;
+    padding-top: 50px;
+}
+
+.courseStudentsAmount > div{
+    width: 266px;
+    margin: 40px 0px 0px 35px;
+    padding: 18px 21px 15px 21px;
+    border-radius: 15px;
+}
+
+.courseStudentsAmount > div > p{
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.courseStudentsAmount > div > h2{
+    font-size: 14px;
+    line-height: 14px;
+    bottom: 60px;
+    left: 5px;
+}
+
+.ekaterinaImg{
+    width: 100px;
+}
+
+.facebookIcon{
+    width: 18px;
+    right: -110px;
+    bottom: 40px;
+}
+
+.coursePriceAndAbout > h1{
+    font-size: 26px;
+    line-height: 26px;
+    margin: 0px 0px 30px 35px;
+    padding-top: 62px;
+    width: 224px;
+}
+
+.coursePriceAndAbout > span{
+    font-size: 12px;
+    line-height: 12px;
+    margin: 0px 0px 0px 35px;
+}
+
+.coursePriceAndAbout > p{
+    font-size: 37px;
+    line-height: 37px;
+    margin: 0px 0px 0px 35px
+}
+
+.coursePriceAndAbout > div{
+    margin: 60px 0px 0px 35px
+}
+
+.coursePriceAndAbout > div > div{
+    width: 138px;
+    margin-right: 30px;
+    padding-bottom: 60px;
+}
+
+.coursePriceAndAbout > div > div > h3{
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 5px;
+}
+
+.coursePriceAndAbout > div > div > p{
+    font-size: 10px;
+    line-height: 10px;
+}
+
+.footerBlock > p{
+    margin: 50px 0px 10px 57px;
+    padding-bottom: 15px;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+.footerBlockFirstColumn > img:nth-child(2){
+    margin-left: 56px;
+}
+
+.footerBlockFirstColumn > img{
+    margin-right: 10px;
+}
+
+.footerBlockFirstColumn > img{
+    width: 15px;
+}
+
+.footerBlockSecondColumn{
+    left: 57px;
+    top: 7px;
+    font-size: 25px;
+    float: none;
+}
+
+.footerBlockSecondColumn > p{
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 10px;
+}
+
+.footerBlockSecondColumn > p > img{
+    margin-right: 10px;
+    width: 12px;
+}
+
+.footerLogo{
+    margin: 23px 0px 14px 56px;   
+}
+
+.footerBlockFirstColumn > img:first-child{
+    width: 53px;
 }
 
 }
